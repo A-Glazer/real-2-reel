@@ -1,0 +1,218 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+ 
+ 
+/*==========  Mobile First Method  ==========*/
+ 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+ 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+html {
+	font-size: 90%;
+}
+.testimonial-carousel .owl-controls .owl-pagination {
+	margin-right: 15px !important;
+}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+html {
+	font-size: 75%;
+}
+.divider, .parallax {
+  background-attachment: scroll;
+}
+.navbar-nav  .dropdown-menu {
+    left: auto;
+}
+#header-logo {
+	padding: 10px 15px;
+}
+section > .container, section > .container-fluid {
+	padding-bottom: 30px;
+}
+.divider .container {
+	padding-bottom: 40px;
+}
+.header .navbar-default .navbar-nav > li > a::after {
+	display: none;
+}
+#about .icon-box, .our-mission, .team-member, .table-list, .working-progress, #contact .contact-info {
+	margin-bottom: 60px !important;
+}
+.static-testimonial .testimonial-thumb {
+	margin-left: auto;
+	margin-right: auto;
+  	margin-top: 30px;
+}
+.testimonial-carousel .owl-controls .owl-pagination {
+	margin-right: 0px !important;
+}
+.masonry-filters > li {
+	padding-bottom: 10px;
+}
+.funfact {
+	margin-bottom: 60px !important;
+    border-right: 0;
+    padding-right: 0;
+    text-align: center;
+}
+.map {
+	margin-top: 30px;
+}
+.curve-bg:after, .curve-bg-half:after {
+	left: auto;
+	-webkit-transform: rotate(-0deg);
+	-moz-transform: rotate(-0deg);
+	-ms-transform: rotate(-0deg);
+	-o-transform: rotate(-0deg);
+	transform: rotate(-0deg);
+}
+.blog-posts .entry-header .entry-title {
+	padding-top: 0;
+}
+.blog-posts .entry-header .entry-date {
+	margin-left: 0;
+}
+.contact-wrapper {
+    padding: 50px 30px;
+}
+.masonry-filters > li > a.active::after, 
+.masonry-filters > li > a:hover::after {
+	background: none;
+	height: 0;
+}
+.header #header-logo {
+	padding-top: 20px;
+}
+.minimal-layout .header #header-logo,
+.vertical-header .header #header-logo {
+	padding-top: 10px;
+}
+.header .navbar-default .navbar-toggle {
+	margin-top: 18px;
+}
+.minimal-layout .header .navbar-default .navbar-toggle {
+	margin-top: 8px;
+}
+.header #header-logo img {
+	height: 30px;
+}
+.pricing-table .table-price {
+	font-size: 30px;
+}
+.masonry-items .masonry-item h3 {
+	font-size: 16px;
+}
+#top-search-bar {
+	background: none;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 100%;
+}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+html {
+	font-size: 60%;
+}
+#header-logo {
+	padding: 10px 15px;
+}
+#spinner {
+	left: 42%;
+}
+.navbar-default .navbar-toggle {
+	margin-top: 15px;
+	border-radius: 0px;
+}
+#home .home-content p {
+	margin: 15px 0;
+	font-size: 14px;
+}
+.icon-box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.icon-box {
+	text-align: center;
+}
+.icon-box.left {
+	text-align: center;
+}
+.icon-box.left a {
+  margin-right: 0;
+  padding: 0;
+}
+.icon-box .media-left {
+	float: none !important;
+	margin: 0 0 30px 0;
+}
+.icon-box .media-left, .icon-box .media-right, .icon-box .media-body {
+	display: block;
+}
+.product .product-thumb img {
+  width: 100%;
+}
+.call-to-action {
+	text-align: center;
+}
+.call-to-action .icon {
+	float: none;
+}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+html {
+	font-size: 50%;
+}
+.post > div {
+	width: 100%;
+}
+.vertical-text-carousel .owl-controls .owl-buttons {
+	top: 18%;
+}
+.masonry-items .masonry-item {
+	width: 84% !important;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 319px) {
+html {
+	font-size: 35%;
+}
+}

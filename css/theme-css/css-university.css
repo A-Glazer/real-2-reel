@@ -1,0 +1,42 @@
+/*
+@Author: ThemeMascot
+@URL: http://ThemeMascot.com
+
+This is the file where you can add your custom styles to change the look of the
+theme. But don't modify main-style.css file.
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+body {
+  color: #555;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+h2 {
+    font-size: 30px;    
+}
+h4 {
+  font-size: 18px;
+}
+p {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section-title p {
+  color: #777;
+  font-size: 13px;
+  line-height: 26px;
+  margin: 25px auto;
+  max-width: 560px;
+}
+.testimonial-carousel.bullet-white .owl-dots span {
+  background: none repeat scroll 0 0 #fff !important;
+}

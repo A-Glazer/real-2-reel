@@ -1,0 +1,48 @@
+/*
+@Author: ThemeMascot
+@URL: http://ThemeMascot.com
+
+This is the file where you can add your custom styles to change the look of the
+theme. But don't modify main-style.css file.
+
+*/
+
+.law-items {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.law-items li i {
+  border: 1px solid #fff;
+  color: #ddd;
+  font-size: 16px;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 28px;
+  margin-right: 10px;
+  text-align: center;
+  width: 35px;
+}
+.law-items {
+  color: #fff;
+  font-family: "Raleway",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* button brown */
+.btn-colored.btn-brown {
+  background: #956947!important;
+  color: #fff!important;
+}
+.btn-colored.btn-brown:hover {
+  background: #956947!important;
+  color: #fff!important;
+}
+.btn-default.btn-brown {
+  border: 1px solid #956947!important;
+  color: #956947!important;
+}
+.btn-default.btn-brown:hover {
+  border: 1px solid #956947!important;
+}

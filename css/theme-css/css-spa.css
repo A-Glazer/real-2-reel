@@ -1,0 +1,97 @@
+/*
+@Author: ThemeMascot
+@URL: http://ThemeMascot.com
+
+This is the file where you can add your custom styles to change the look of the
+theme. But don't modify main-style.css file.
+
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+body {
+  color: #555;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+h2 {
+    font-size: 30px;    
+}
+h4 {
+  font-size: 18px;
+}
+p {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section-title p {
+  color: #777;
+  font-size: 13px;
+  line-height: 26px;
+  margin: 25px auto;
+  max-width: 560px;
+}
+.layer-overlay.layer-pattern::before {
+  background-color: rgba(10, 30, 60, 0.15);
+  background-image: url("../../images/pattern.png");
+}
+.esc-heading.small-border span:before, .esc-heading.small-border span:after {
+  background: none repeat scroll 0 0 rgba(230, 110, 142, 1);
+  content: "";
+  height: 15px;
+  left: -35px;
+  position: absolute;
+  width: 25px;
+}
+.esc-heading.small-border span:before {
+	top: 0px;
+}
+.esc-heading.small-border span:after {
+	bottom: 0px;
+}
+.esc-heading h2 {
+  padding-left: 35px;
+}
+.pricing-table.featured {
+  border: 1px solid #E66E8E;
+  -webkit-transform:scale(1,1.04);
+  -moz-transform:scale(1,1.04);
+  -ms-transform:scale(1,1.04);
+  -o-transform:scale(1,1.04);
+  transform:scale(1,1.04);
+  z-index:1;
+}
+.pricing-table.style2 .table-list li .fa-check {
+  color: #e66e8e;
+  font-size: 14px;
+  margin-right: 8px;
+}
+.pricing-table.style2 .table-list li .fa-close {
+  color: #ccc;
+  font-size: 14px;
+  margin-right: 8px;
+}
+.testimonial-carousel.bullet-white .owl-dots span {
+  background: none repeat scroll 0 0 #fff !important;
+}
+/* button pink */
+.btn-colored.btn-pink {
+  background: #EB6E8E!important;
+  color: #fff!important;
+}
+.btn-colored.btn-pink:hover {
+  background: #EB6E8E!important;
+  color: #fff!important;
+}
+.btn-default.btn-pink {
+  border: 1px solid #EB6E8E!important;
+  color: #EB6E8E!important;
+}
+.btn-default.btn-pink:hover {
+  border: 1px solid #EB6E8E!important;
+}
