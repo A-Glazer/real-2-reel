@@ -8,9 +8,9 @@ This file contains the styling for the actual theme. Please don't modify this fi
 @import "font-awesome.min.css";
 @import "pe-icon-7-stroke.css";
 @import "et-line.css";
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800);
-@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 /**
  * Table of Contents:
  *
